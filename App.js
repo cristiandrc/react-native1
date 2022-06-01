@@ -1,11 +1,12 @@
 import { StyleSheet, Text, View } from "react-native";
-import LoginForm from "./src/components/LoginForm";
+import Saludar from "./src/components/Saludar";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>HOla devide!</Text>
-      <LoginForm />
+      <Text>Curso React Native</Text>
+      <Saludar name="Cristians" />
+      <Saludar name="David" />
     </View>
   );
 }
