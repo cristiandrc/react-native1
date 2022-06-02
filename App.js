@@ -3,11 +3,14 @@ import { StyleSheet } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
 import NavigationStack from "./src/navigaton/NavigationStack";
 import NavigationTab from "./src/navigaton/NavigationTab";
+import NavigationDrawer from "./src/navigaton/NavigationDrawer";
 
 export default function App() {
   return (
     <NavigationContainer>
-      <NavigationTab />
+      {/* <NavigationStack /> */}
+      {/* <NavigationTab /> */}
+      <NavigationDrawer />
     </NavigationContainer>
   );
 }
